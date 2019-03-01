@@ -9,33 +9,64 @@ div{
 }
 body {
 	
-    font-weight: bold;
+    font-weight:550;
     font-family: 'Teko', sans-serif;
-    font-stretch: condensed;
-    color: black;
+    color: #f0fefe;
     width: 100%;
     height: 100%;
-
+    font-size:calc(4vw - 0.2rem);
+    background-color: #6783a4;
+	line-height: 1.2;
  }
 .container{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: : stretch;
+	align-items: : stretch
+		
+}
+.cell{
+
+	width: 20vw;
+	border: 0.3vw #6f8cae solid;
+	padding-top: 1.3vw;
+	padding-right: 3vw;
+	padding-bottom:0.7vw;
+	padding-left:2vw;
 	
 }
-.row{
-	width: 20vw;
-	border: 2px black solid;
-	height: 10vh;
-	padding-top: 5px;
-	padding-right: 20px;
-	padding-bottom:10px;
-	padding-left:20px;
-	
-	
+.smallsize{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 50%;
+}
+.block{
+	background-color: #a2edf2;
+	width: 2vw;
+	height: 0.8vw;
+}
 
 
-	
+.bluecolor{
+	color: #a2edf2;
+}
 
+.colorblock{
+	background-color: #98b5d3;
+}
+
+.cell-2{
+	width: 25vw;
+	border: 0.3vw #6f8cae solid;
+	padding-top: 1.3vw;
+	padding-right: 3vw;
+	padding-bottom:0.7vw;
+	padding-left:2vw;
+}
+.bigsize{
+	font-size: 300%;
+}
+.middlesize{
+	font-size: 200%;
 }

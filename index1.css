@@ -62,15 +62,12 @@ body {
 	font-size: 300%;
 }
 .middle-font-size{
-	font-size: 170%;
+	font-size: 280%;
 }
 .cell-2{
 	width: 25vw;
 	border: 0.3vw #6f8cae solid;
-	padding-top: 2vw;
-	padding-right: 3vw;
-	padding-bottom:0.7vw;
-	padding-left:2vw;
+	padding: 2vw 3vw 0.7vw 2vw;
 
 }
 .cell-2-2{
@@ -88,11 +85,68 @@ body {
 .font-opacity{
 	opacity: 0.7;
 }
-.box{
+
+.cell3{
 	display: flex;
-	flex-direction: row;
 	width: 100vw;
+	height: 10vw;
+	border: 0.3vw #6f8cae solid;
+	justify-content: space-between;
 
 }
-
+.cell3-1{
+	width: 30vw;
+	padding: 1vw 2vw 3vw;
 	
+}
+.zero{
+	font-size: 7vw;
+	font-weight: 3vw;
+	color: #c8eef1;
+}
+
+.alarms{
+	position: absolute;
+	padding: 2vw 2vw 3vw;
+	color: #c8eef1;
+}
+.cell3-2{
+	align-self: center;
+
+}
+.size{
+	font-size:5vw; 
+}
+.cell-4{
+	width: 50vw;
+
+}
+.box{
+	border:  0.3vw #6f8cae solid;
+	display: flex;
+	flex-direction: row;	
+}
+.box2{
+	border:  0.3vw #6f8cae solid;
+}
+.next-los{
+	align-self: stretch;
+	width: 30vw;
+	padding: 1vw 7vw 2vw 1vw;
+}
+.padding{
+	padding-top: 1vw;
+}
+.box-right{
+	border:  0.3vw #6f8cae solid;
+display: flex;
+	flex-direction: row;}
+.half-of-colon{
+	display: flex;
+	flex-direction: row;
+	padding: 1vw 3vw 2vw 1vw;
+
+}
+.next-deorbit{
+	padding-right: 6vw;
+}

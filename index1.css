@@ -23,6 +23,7 @@ body {
 	flex-direction: row;
 	justify-content: stretch;
 	align-items:stretch;
+	background-image: linear-gradient(#7c95b9, #55708c)
 
 		
 }
@@ -87,6 +88,7 @@ body {
 }
 .container-4{
 	display: flex;
+	background-image: linear-gradient(#7c95b9, #55708c)
 
 }
 
@@ -129,7 +131,7 @@ body {
 
 }
 .box{
-	border: 0.3vw #5d7695 solid;
+	border: 0.3vw #6f8cae solid;
 	display: flex;
 	flex-direction: row;	
 }
@@ -246,49 +248,14 @@ body {
 	color: #d5ebeb;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container1{
+	display: flex;
+	padding: 1vw 2vw;
+	
+}
+.container-1{
+	display:flex;
+}
 
 
 .container-end{

@@ -205,6 +205,7 @@ body {
 	sans-serif;
 	font-size: 70%;
 	color: #bacdda;
+	border-top: #6f8cae;
 
 }
 .Randevouz-burn{
@@ -251,6 +252,11 @@ body {
 .container1{
 	display: flex;
 	padding: 1vw 2vw;
+	padding-top:1vw;
+	padding-left: 2vw;
+	padding-right:2vw;
+	font-size: 150%;
+	border-bottom: 0.5vw solid #6f8cae;
 	
 }
 .container-1{

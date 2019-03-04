@@ -189,15 +189,20 @@ body {
 	padding-right:2vw;
 	font-size: 150%;
 	border-bottom: 0.5vw solid #6f8cae;
+	
 }
 .schedule{
 	flex-grow: 4;
+}
+.white{
+	color: white;
 }
 .container-6{
 	position: relative;
 	font-family: 'Roboto',
 	sans-serif;
 	font-size: 70%;
+	color: #bacdda;
 
 }
 .Randevouz-burn{
@@ -341,7 +346,7 @@ body {
 .approach-progress{
 	background-color:#a2edf2;
 	width:0.2vw;
-	height: 100%;
+	height: 90%;
 	top: 0;
 	position: absolute;
 	left: 35.5vw;
@@ -446,5 +451,7 @@ body {
 	border: none;
 	padding-left: 1v;
 	font-size:40%;
-
+}
+.row{
+	background-color: #83a0c6;
 }

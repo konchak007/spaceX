@@ -62,8 +62,7 @@ body {
 }
 .middle-font-size{
 	font-size: 250%;
-	padding-top: 0.7vw;
-	padding-right: 1vw;
+	padding-right: 0.5vw;
 }
 .cell-2{
 	width: 25vw;
@@ -138,7 +137,7 @@ body {
 
 
 .next-deorbit{
-	padding-right:5vw;
+	padding-right:9vw;
 }
 .middle{
 	padding-top:2vw;
@@ -147,6 +146,7 @@ body {
 	display:flex;
 	flex-direction: row;
 	padding: 1vw 1vw 0vw 3vw;
+	justify-content: space-between;
 
 }
 .box-right-small{
@@ -171,15 +171,14 @@ body {
 	flex-direction: row;
 	padding: 1vw 0.5vw 2vw 1vw;
 }
-.window-pacific{
-	display: flex;
-	padding-top:1vw;
+
 
 
 }
 .container-4{
 	background-color: #7992b6;
 }
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');

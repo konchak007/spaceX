@@ -1,0 +1,8 @@
+{
+    "workbench.editor.closeOnFileDelete": true,
+    "languageTool.language": "ua",
+    "explorer.sortOrder": "type",
+    "css.lint.ieHack": "warning",
+    "html.format.indentHandlebars": true,
+    "scss.lint.ieHack": "warning"
+}

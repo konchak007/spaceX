@@ -316,6 +316,7 @@ margin-left:25%;
 	height: 0.3vw;
 	background-color: #5d7695;
 	padding-left: 8vw;
+	margin-left: 2vw;
 }
 
 .header {
@@ -326,7 +327,6 @@ margin-left:25%;
 
 .approach-row {
 	display: flex;
-	flex-direction: row;
 	width: 100%;
 
 }
@@ -470,13 +470,14 @@ margin-left:25%;
 
 .approach-row-timeline {
 	background: transparent;
-	height: 4vw;
+	
 }
 
 .approach-cell.noneborder {
 	border: none;
 	padding-left: 1v;
 	font-size: 40%;
+	text-align: right;
 }
 
 .row {
